@@ -13,6 +13,14 @@
     flex-direction: row-reverse;
   }
 
+  .heading {
+    @apply font-medium text-5xl text-center max-w-2xl mx-auto;
+  }
+
+  .heading span {
+    @apply text-orange;
+  }
+
   :root {
     --background: 0 0% 100%;
     --foreground: 224 71.4% 4.1%;
@@ -27,6 +35,7 @@
     --primary-foreground: 210 20% 98%;
 
     --orange: rgb(255, 79, 0);
+    --orange-faded: rgba(255, 79, 0, 0.1);
     --orange-gradient: linear-gradient(to right, rgba(255, 79, 0.8) 0%, rgba(255, 79, 0, 1) 100%);
 
     --secondary: 220 14.3% 95.9%;
