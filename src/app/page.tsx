@@ -1,8 +1,21 @@
+import FeatureSection from "./_components/sections/FeatureSection";
+import Hero from "./_components/layout/Hero";
+import ProductSection from "./_components/sections/ProductSection";
+import PriceSection from "./_components/sections/PriceSection";
+import FAQSection from "./_components/sections/FAQSection";
+import CTA from "./_components/CTA";
+import Footer from "./_components/layout/Footer";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <h1>Landing page 2</h1>
-    </main>
+    <>
+      <Hero />
+      <FeatureSection />
+      <ProductSection />
+      <PriceSection />
+      <FAQSection />
+      <CTA />
+      <Footer />
+    </>
   );
 }
