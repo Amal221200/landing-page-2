@@ -42,7 +42,7 @@ export const priceData = [
     }
 ]
 
-export const accordionData  = [
+export const accordionData = [
     {
         title: "What is GenAI?",
         content: 'lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.'
@@ -67,4 +67,25 @@ export const accordionData  = [
         title: "lorem ipsum dolor sit amet?",
         content: 'lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.'
     },
+]
+
+export const footerLinks = [
+    [
+        "About",
+        "Contact",
+        "Blog",
+        "Story",
+    ],
+    [
+        "Company",
+        "Products",
+        "Press",
+        "More",
+    ],
+    [
+        "Press",
+        "Careers",
+        "News",
+        "More",
+    ],
 ]

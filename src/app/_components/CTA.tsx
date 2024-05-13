@@ -11,8 +11,8 @@ const CTA = () => {
           together, all powered by {"Horizon's"} cutting-edge AI analytics.
         </p>
 
-        <form className='flex gap-x-3 justify-center flex-wrap'>
-          <input type="text" className='bg-gray-200 rounded w-full basis-[220px] flex-grow outline-none px-2 py-1' placeholder='yourmail@gmail.com' />
+        <form className='flex gap-3 justify-center flex-wrap'>
+          <input type="text" className='bg-gray-200 rounded w-full basis-[220px] max-w-80 flex-grow outline-none p-2' placeholder='yourmail@gmail.com' />
           <PrimaryButton className='basis-[50px]'>
             Subscribe Now
           </PrimaryButton>
