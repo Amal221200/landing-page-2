@@ -24,7 +24,7 @@ const buttonVariants = cva(
         ["primary-gradient"]: "bg-orange-gradient text-white rounded-lg font-medium shadow",
       },
       size: {
-        default: "h-10 px-4 py-2",
+        default: "h-10 px-4 py-2 sm:px-4 sm:py-2 px-2 py-1 text-sm sm:text-base",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
         icon: "h-10 w-10",

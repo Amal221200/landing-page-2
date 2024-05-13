@@ -3,16 +3,16 @@ import { AccordionDemo } from "@/components/Accordion"
 
 const FAQSection = () => {
   return (
-    <section className="h-screen bg-hero w-full flex justify-center items-center px-4 bg-no-repeat bg-center bg-cover">
+    <section className="flex h-screen w-full items-center justify-center bg-hero bg-cover bg-center bg-no-repeat px-4">
       <div className="space-y-8">
-        <div className="text-center space-y-3">
+        <div className="space-y-3 text-center">
           <h2 className="heading">Need any help?</h2>
-          <p className="text-zinc-500 text-lg">
+          <p className="subtitle">
             {"Don't"} worry, we got you. Here are some answers for your questions.
           </p>
         </div>
 
-        <div className="max-w-xl mx-auto">
+        <div className="mx-auto max-w-xl">
           <AccordionDemo />
         </div>
       </div>

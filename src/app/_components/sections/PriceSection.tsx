@@ -13,7 +13,7 @@ const PriceSection = () => {
         Choose a plan
       </h2>
 
-      <div className='flex justify-center flex-wrap gap-8 px-4'>
+      <div className='flex flex-wrap justify-center gap-8 px-4'>
         {
           priceData.map((price, i) => (
             <PriceCard key={i} price={price} large={price.large} highlight={price.higlight} />
@@ -21,10 +21,10 @@ const PriceSection = () => {
         }
       </div>
 
-      <div className='flex justify-between mx-auto items-center max-w-lg px-4 py-2'>
-        <p className='text-orange flex gap-x-1 text-sm items-center'><CircleCheck fill='rgb(255, 79, 0)' size={18} className='text-white' /> Free Trial</p>
-        <p className='text-orange flex gap-x-1 text-sm items-center'><CircleCheck fill='rgb(255, 79, 0)' size={18} className='text-white' /> Cancel Anytime</p>
-        <p className='text-orange flex gap-x-1 text-sm items-center'><CircleCheck fill='rgb(255, 79, 0)' size={18} className='text-white' /> Support included</p>
+      <div className='mx-auto flex max-w-lg flex-wrap items-center justify-center gap-2 px-4 py-2 text-center'>
+        <p className='flex flex-1 basis-[150px] items-center justify-center gap-x-1 text-sm text-orange'><CircleCheck fill='rgb(255, 79, 0)' size={18} className='text-white' /> Free Trial</p>
+        <p className='flex flex-1 basis-[150px] items-center justify-center gap-x-1 text-sm text-orange'><CircleCheck fill='rgb(255, 79, 0)' size={18} className='text-white' /> Cancel Anytime</p>
+        <p className='flex flex-1 basis-[150px] items-center justify-center gap-x-1 text-sm text-orange'><CircleCheck fill='rgb(255, 79, 0)' size={18} className='text-white' /> Support included</p>
       </div>
     </section>
   )

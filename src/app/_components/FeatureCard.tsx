@@ -4,15 +4,15 @@ import Image from "next/image"
 
 const FeatureCard = ({ i }: { i: number }) => {
     return (
-        <article className='lg:h-[70dvh] md:h-[60dvh] p-10' key={i}>
+        <article className='p-10 md:h-[60dvh] lg:h-[70dvh]' key={i}>
             <div className={cn('flex flex-col justify-center sm:flex-row h-full gap-4', i % 2 !== 0 && "sm:flex-row-reverse")}>
-                <div className='relative w-full sm:w-max text-center'>
-                    <Image src={`/features-${i + 1}.png`} alt='features' width={600} height={400} className='mx-auto aspect-auto sm:w-[400px] w-[280px]' />
+                <div className='relative w-full text-center sm:w-max'>
+                    <Image src={`/features-${i + 1}.png`} alt='features' width={600} height={400} className='mx-auto aspect-auto w-[280px] sm:w-[400px]' />
                 </div>
-                <div className="space-y-3 sm:w-[550px] text-center sm:text-left">
-                    <h3 className='lg:text-6xl md:text-4xl sm:text-2xl text-xl font-medium'>
+                <div className="space-y-3 text-center sm:w-[550px] sm:text-left">
+                    <h3 className='text-xl font-medium sm:text-2xl md:text-4xl lg:text-6xl'>
                         <span className='text-orange'>Unleash</span> the power of AI with GenAI</h3>
-                    <p className='sm:text-md text-gray-600 leading-6'>
+                    <p className='sm:text-md leading-6 text-gray-600'>
                         {"Stay ahead of the curve with our Dynamic Trend Analysis feature. Unlock the full potential of your tech stack with Horizon's intuitive and Stay ahead of the curve with our Dynamic Trend Analysis feature. Unlock the full potential of your tech stack with Horizon's intuitive and"}
                     </p>
                 </div>

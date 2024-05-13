@@ -14,8 +14,8 @@ export function AccordionDemo() {
             {
                 accordionData.map((data, i) => (
                     <AccordionItem key={i} value={`item-${i + 1}`} className="space-y-1">
-                        <AccordionTrigger className="hover:no-underline bg-white px-3 rounded text-left">{data.title}</AccordionTrigger>
-                        <AccordionContent className="bg-white px-3 py-3 rounded">
+                        <AccordionTrigger className="rounded bg-white px-3 text-left hover:no-underline">{data.title}</AccordionTrigger>
+                        <AccordionContent className="rounded bg-white px-3 py-3">
                             {data.content}
                         </AccordionContent>
                     </AccordionItem>

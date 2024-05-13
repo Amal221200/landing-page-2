@@ -18,13 +18,13 @@ interface PriceCardProps {
 }
 const PriceCard = ({ large, highlight, price }: PriceCardProps) => {
     return (
-        <article className={cn('lg:px-8 md:px-6 sm:p-4 p-2 border w-full space-y-4 basis-[310px] rounded-3xl shadow', large && "transform scale-110")}>
+        <article className={cn('lg:px-8 md:px-6 p-4 border w-full space-y-4 basis-[310px] rounded-3xl shadow', large && "transform scale-110")}>
             <div className='text-center'>
                 <p className={cn('font-medium', highlight && 'text-orange flex gap-x-1 items-center justify-center')}>
                     {price.headline}
                     {
-                        highlight && (<span className='text-orange bg-orange-faded items-center justify-center p-1 text-xs rounded inline-flex'>
-                            <i className="h-1 w-1 rounded-full bg-orange mr-1"></i> Best Value
+                        highlight && (<span className='inline-flex items-center justify-center rounded bg-orange-faded p-1 text-xs text-orange'>
+                            <i className="mr-1 h-1 w-1 rounded-full bg-orange"></i> Best Value
                         </span>
                         )
                     }
@@ -41,7 +41,7 @@ const PriceCard = ({ large, highlight, price }: PriceCardProps) => {
 
             {
                 highlight ?
-                    <PrimaryButton className="w-full ">
+                    <PrimaryButton className="w-full">
                         Get Now
                     </PrimaryButton> :
                     <SecondaryButton className="w-full">

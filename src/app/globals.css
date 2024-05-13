@@ -14,7 +14,11 @@
   }
 
   .heading {
-    @apply font-medium text-5xl text-center max-w-2xl mx-auto;
+    @apply font-medium sm:text-5xl text-2xl text-center max-w-2xl mx-auto;
+  }
+
+  .subtitle {
+    @apply text-gray-700 text-sm sm:text-base font-normal;
   }
 
   .heading span {

@@ -4,7 +4,7 @@ import React from 'react'
 
 const FooterLinks = () => {
     return (
-        <div className='w-full flex justify-between'>
+        <div className='flex w-full justify-between'>
             {
                 footerLinks.map((footerLink) => (
                     <nav key={crypto.randomUUID()} className='flex flex-col gap-y-3'>
