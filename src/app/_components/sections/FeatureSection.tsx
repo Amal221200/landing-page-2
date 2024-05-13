@@ -3,8 +3,8 @@ import FeatureCard from '../FeatureCard'
 
 const FeatureSection = () => {
     return (
-        <section className='space-y-4'>
-            <div className='text-center space-y-3 max-w-md mx-auto'>
+        <section className='section space-y-4'>
+            <div className='mx-auto max-w-md space-y-3 text-center'>
                 <h2 className='heading'>Explore the power of AI apps generation</h2>
                 <p className='subtitle'>
                     Unlock the full potential of your tech stack with {"GenAI's"} intuitive and Unlock the full potential of your tech stack with {"GenAI's"} intuitive

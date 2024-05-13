@@ -10,7 +10,7 @@ const FooterLinks = () => {
                     <nav key={crypto.randomUUID()} className='flex flex-col gap-y-3'>
                         {
                             footerLink.map(link => (
-                                <Link href="#" key={crypto.randomUUID()} className='text-gray-300 hover:underline'>{link}</Link>
+                                <Link href="#" key={crypto.randomUUID()} className='text-sm text-gray-300 hover:underline sm:text-base'>{link}</Link>
                             ))
                         }
                     </nav>

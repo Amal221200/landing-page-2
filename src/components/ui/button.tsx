@@ -18,13 +18,15 @@ const buttonVariants = cva(
           "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
         secondary:
           "bg-white text-black shadow",
+        ['secondary-gradient']:
+          "bg-white-gradient text-black shadow-md",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        primary: "bg-orange text-white shadow rounded-full font-medium",
+        primary: "bg-orange text-white shadow rounded-lg font-medium",
         ["primary-gradient"]: "bg-orange-gradient text-white rounded-lg font-medium shadow",
       },
       size: {
-        default: "h-10 px-4 py-2 sm:px-4 sm:py-2 px-2 py-1 text-sm sm:text-base",
+        default: "h-10 sm:px-4 sm:py-2 px-2 py-[1px] text-sm sm:text-base",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
         icon: "h-10 w-10",

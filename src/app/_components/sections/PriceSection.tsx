@@ -7,7 +7,7 @@ import PriceCard from '../PriceCard'
 
 const PriceSection = () => {
   return (
-    <section className='space-y-10 px-4'>
+    <section className='section space-y-10'>
       <h2 className="heading">
         Start making <span>smarter</span> decisions, <br />
         Choose a plan

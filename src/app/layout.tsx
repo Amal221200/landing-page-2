@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={cn(roboto.className, "space-y-10")}>
+      <body className={cn(roboto.className)}>
         {children}
       </body>
     </html>

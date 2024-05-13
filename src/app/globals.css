@@ -9,20 +9,24 @@
     @apply bg-white text-black;
   }
 
-  .feauture:nth-of-type(2n) > div {
+  .feauture:nth-of-type(2n)>div {
     flex-direction: row-reverse;
   }
 
   .heading {
-    @apply font-medium sm:text-5xl text-2xl text-center max-w-2xl mx-auto;
+    @apply mx-auto max-w-2xl text-center text-2xl font-medium sm:text-5xl;
   }
 
   .subtitle {
-    @apply text-gray-700 text-sm sm:text-base font-normal;
+    @apply text-sm font-normal text-gray-700 sm:text-base;
   }
 
   .heading span {
     @apply text-orange;
+  }
+
+  .section {
+    @apply my-8 px-4 py-8;
   }
 
   :root {
@@ -40,7 +44,9 @@
 
     --orange: rgb(255, 79, 0);
     --orange-faded: rgba(255, 79, 0, 0.1);
-    --orange-gradient: linear-gradient(to right, rgba(255, 79, 0.8) 0%, rgba(255, 79, 0, 1) 100%);
+    --orange-gradient: linear-gradient(180deg, rgba(250, 107, 41, 0.9) 50%, rgba(255, 79, 0, 1) 100%);
+    ;
+    --white-gradient: linear-gradient(to bottom, rgba(255, 255, 255) 50%, rgba(0, 0, 0, 0.1) 100%);
 
     --secondary: 220 14.3% 95.9%;
     --secondary-foreground: 220.9 39.3% 11%;

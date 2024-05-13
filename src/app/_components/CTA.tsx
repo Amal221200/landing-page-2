@@ -13,7 +13,7 @@ const CTA = () => {
 
         <form className='flex flex-wrap justify-center gap-3'>
           <input type="text" className='w-full max-w-80 flex-grow basis-[220px] rounded bg-gray-200 p-2 outline-none' placeholder='yourmail@gmail.com' />
-          <PrimaryButton className='basis-[50px]'>
+          <PrimaryButton className='basis-[50px]' gradient>
             Subscribe Now
           </PrimaryButton>
         </form>

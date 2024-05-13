@@ -21,6 +21,7 @@ const config = {
       backgroundImage: {
         ["hero"]: "url(/hero-bg.png)",
         ["orange-gradient"]: "var(--orange-gradient)",
+        ["white-gradient"]: "var(--white-gradient)",
       },
       colors: {
         border: "hsl(var(--border))",

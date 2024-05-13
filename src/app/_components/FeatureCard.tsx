@@ -4,8 +4,8 @@ import Image from "next/image"
 
 const FeatureCard = ({ i }: { i: number }) => {
     return (
-        <article className='p-10 md:h-[60dvh] lg:h-[70dvh]' key={i}>
-            <div className={cn('flex flex-col justify-center sm:flex-row h-full gap-4', i % 2 !== 0 && "sm:flex-row-reverse")}>
+        <article className='p-10 md:h-[50dvh] lg:h-[70dvh]'>
+            <div className={cn('flex flex-col justify-center sm:flex-row h-full gap-6', i % 2 !== 0 && "sm:flex-row-reverse")}>
                 <div className='relative w-full text-center sm:w-max'>
                     <Image src={`/features-${i + 1}.png`} alt='features' width={600} height={400} className='mx-auto aspect-auto w-[280px] sm:w-[400px]' />
                 </div>

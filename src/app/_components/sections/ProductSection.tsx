@@ -3,7 +3,7 @@ import ProductCard from '../ProductCard'
 
 const ProductSection = () => {
   return (
-    <section className='space-y-4'>
+    <section className='section space-y-4'>
       <h2 className='heading'>
         <span>Essentially</span>, everything you need to ship you first AI App
       </h2>

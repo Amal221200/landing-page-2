@@ -22,7 +22,7 @@ const Header = () => {
                 </nav>
 
                 <div>
-                    <PrimaryButton>
+                    <PrimaryButton gradient>
                         Get Started
                     </PrimaryButton>
                 </div>

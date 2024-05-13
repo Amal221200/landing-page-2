@@ -3,7 +3,7 @@ import { AccordionDemo } from "@/components/Accordion"
 
 const FAQSection = () => {
   return (
-    <section className="flex h-screen w-full items-center justify-center bg-hero bg-cover bg-center bg-no-repeat px-4">
+    <section className="section flex w-full items-center justify-center bg-hero bg-cover bg-center bg-no-repeat">
       <div className="space-y-8">
         <div className="space-y-3 text-center">
           <h2 className="heading">Need any help?</h2>
