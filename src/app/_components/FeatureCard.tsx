@@ -2,9 +2,9 @@ import { cn } from "@/lib/utils"
 import Image from "next/image"
 
 
-const Feature = ({ i }: { i: number }) => {
+const FeatureCard = ({ i }: { i: number }) => {
     return (
-        <article className='lg:h-[80dvh] md:h-[60dvh] p-10' key={i}>
+        <article className='lg:h-[70dvh] md:h-[60dvh] p-10' key={i}>
             <div className={cn('flex flex-col justify-center sm:flex-row h-full gap-4', i % 2 !== 0 && "sm:flex-row-reverse")}>
                 <div className='relative w-full sm:w-max text-center'>
                     <Image src={`/features-${i + 1}.png`} alt='features' width={600} height={400} className='mx-auto aspect-auto sm:w-[400px] w-[280px]' />
@@ -21,4 +21,4 @@ const Feature = ({ i }: { i: number }) => {
     )
 }
 
-export default Feature
+export default FeatureCard

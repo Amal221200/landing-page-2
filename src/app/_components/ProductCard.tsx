@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const Product = () => {
+const ProductCard = () => {
   return (
     <article className='h-full w-full shadow-lg space-y-4 rounded-lg p-4'>
       <div className='mb-2'>
@@ -17,4 +17,4 @@ const Product = () => {
   )
 }
 
-export default Product
+export default ProductCard

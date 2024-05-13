@@ -1,5 +1,5 @@
 import React from 'react'
-import Feature from '../Feature'
+import FeatureCard from '../FeatureCard'
 
 const FeatureSection = () => {
     return (
@@ -13,7 +13,7 @@ const FeatureSection = () => {
 
             {
                 Array(3).fill(0).map((_, i) => (
-                    <Feature i={i} key={i} />
+                    <FeatureCard i={i} key={i} />
                 ))
             }
         </section>

@@ -16,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={cn(roboto.className, "space-y-8")}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={cn(roboto.className, "space-y-10")}>
         {children}
       </body>
     </html>
